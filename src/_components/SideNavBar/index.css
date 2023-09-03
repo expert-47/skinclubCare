@@ -1,0 +1,64 @@
+.side-nav-bar {
+  background-color: #fff;
+  width: 15rem;
+  padding: 0.375rem;
+  position: relative;
+  top: -3rem;
+  left: -3rem;
+  margin-bottom: -6rem;
+  z-index: 1;
+}
+
+.side-nav-bar .nav {
+  color: #4c4d4f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.125rem;
+  padding: 0.5rem 0.7rem;
+  margin: 0.5rem;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.side-nav-bar .nav.active {
+  background-color: #fff9f1;
+  border-radius: 0.875rem;
+  background: #fff9f1;
+}
+
+.side-nav-bar .nav.nested-nav {
+  display: none;
+}
+
+.side-nav-bar .nested-nav-active .nav.nested-nav {
+  display: flex;
+  padding-left: 1.7rem;
+  font-size: 0.875rem;
+}
+
+.logos-background > span {
+  position: absolute;
+  z-index: 0;
+}
+
+/* Styles for large screens (desktop) */
+@media screen and (min-width: 760px) {
+  .side-nav-bar {
+    position: relative;
+    display: block;
+  }
+}
+
+/* Styles for tablet screens */
+@media screen and (max-width: 760px) {
+  .side-nav-bar {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0
+  }
+}

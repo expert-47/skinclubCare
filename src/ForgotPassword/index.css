@@ -1,0 +1,65 @@
+.multi-auth {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin: 2rem auto;
+}
+
+.profile-names-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.onboarding-note {
+  padding-left: 1rem;
+  margin: 0.6rem auto;
+}
+
+.onboarding-note > h2 {
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.1875rem;
+  margin: 0;
+  margin-left: 1rem;
+}
+
+.onboarding-note > span {
+  color: #4c4d4f80;
+  font-family: "PT Serif";
+  font-size: 0.75rem;
+  line-height: 1.3125rem; /* 175% */
+}
+
+.onboarding-note > a {
+  color: #000;
+  font-family: "PT Serif";
+  font-size: 0.75rem;
+  line-height: 1.3125rem;
+  text-decoration-line: underline;
+}
+
+/* Styles for large screens (desktop) */
+@media screen and (min-width: 1080px) {
+  .profile-names-wrapper {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+
+/* Styles for tablet screens */
+@media screen and (min-width: 760px) and (max-width: 1080px) {
+  /* Add your tablet screen styles here */
+  .profile-names-wrapper {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+
+/* Styles for mobile screens */
+@media screen and (max-width: 760px) {
+  /* Add your mobile screen styles here */
+  .profile-names-wrapper {
+    flex-direction: column;
+  }
+}

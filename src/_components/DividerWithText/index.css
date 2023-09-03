@@ -1,0 +1,20 @@
+.divider-line {
+  color: #4c4d4f80;
+  position: relative;
+}
+
+.divider-line span {
+  position: absolute;
+  background-color: #fff;
+  width: fit-content;
+  padding: 0 1rem;
+  right: 0;
+  bottom: -0.25rem;
+  left: 0;
+  line-height: 0.7rem;
+  margin: 0 auto;
+}
+
+.divider-line hr {
+  opacity: 0.5;
+}

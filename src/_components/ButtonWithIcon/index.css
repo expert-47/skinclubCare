@@ -1,0 +1,23 @@
+.button-with-icon {
+  display: flex;
+  align-items: center;
+  border-radius: 1.5rem;
+  border: 1px solid #4c4d4f;
+  width: 100%;
+  height: 3rem;
+  font-family: "Cabin";
+  color: #4c4d4f;
+  background-color: #fff;
+}
+
+.button-with-icon span {
+  width: fit-content;
+  text-align: left;
+  flex: 1 0 60%;
+}
+
+.button-with-icon span.icon {
+  text-align: right;
+  margin-right: 0.8rem;
+  flex: 1 0 30%;
+}

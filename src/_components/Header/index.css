@@ -1,0 +1,69 @@
+/* Header styles */
+.header {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #4c4d4f;
+  height: 5.335rem;
+  padding: 1.2rem 1.25rem; /* 10px 20px converted to rem */
+}
+
+.sidebar-toggle {
+  cursor: pointer;
+  font-size: 1.25rem; /* 20px converted to rem */
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.4rem;
+}
+
+.brand h1 {
+  color: #4c4d4f;
+  font-family: auto;
+  letter-spacing: 0.5rem;
+  line-height: 0.8;
+  margin: 0;
+}
+
+.brand span {
+  margin: 0;
+  color: #4c4d4fb0;
+  font-size: 0.75rem;
+  letter-spacing: 0.15rem;
+}
+
+.right {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Styles for large screens (desktop) */
+@media screen and (min-width: 760px) {
+  .header {
+    padding-left: 2rem;
+  }
+  .date-time {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .sidebar-toggle {
+    display: none;
+  }
+}
+
+/* Styles for tablet screens */
+@media screen and (max-width: 760px) {
+  .date-time {
+    display: none;
+  }
+  .sidebar-toggle {
+    display: block;
+  }
+}

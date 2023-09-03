@@ -1,0 +1,56 @@
+/* Input Field styles */
+.text-input-field {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.text-input-field label {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+}
+
+.text-input-field input {
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  margin-top: 0.4rem;
+  padding: 0.4rem 0;
+  line-height: 1.5rem; /* 150% */
+  border-bottom: 1px solid #4c4d4f;
+}
+
+.text-input-field input:focus {
+  outline-color: transparent;
+}
+
+.text-input-field input::placeholder {
+  color: #4c4d4f80;
+}
+
+.text-input-field span {
+  color: #e11d48;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-top: 0.45rem;
+}
+
+/* Styles for large screens (desktop) */
+@media screen and (min-width: 4rem) {
+  /* 64px converted to rem */
+  .left {
+    display: none;
+  }
+}
+
+/* Styles for tablet screens */
+@media screen and (min-width: 3rem) and (max-width: 4rem) {
+  /* 48px and 64px converted to rem */
+  /* Add your tablet screen styles here */
+}
+
+/* Styles for mobile screens */
+@media screen and (max-width: 2.996875rem) {
+  /* 47.9375px converted to rem */
+  /* Add your mobile screen styles here */
+}

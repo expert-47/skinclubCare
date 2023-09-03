@@ -1,0 +1,14 @@
+.key-value-text {
+  font-family: "PT Serif";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+}
+
+.key-value-text .key {
+  color: #4c4d4f80;
+}
+
+.key-value-text .value {
+  color: #4c4d4f;
+}

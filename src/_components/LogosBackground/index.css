@@ -1,0 +1,112 @@
+.logos-background {
+  overflow: hidden;
+}
+
+.logos-background > span {
+  position: absolute;
+  z-index: 0;
+}
+
+/* Styles for extra large screens (LCDs) */
+@media screen and (min-width: 1280px) {
+  .logos-background .top-left {
+    top: -5rem;
+    left: 0;
+  }
+
+  .logos-background .top-right {
+    top: -5rem;
+    right: 0;
+  }
+
+  .logos-background .bottom-left {
+    bottom: -6rem;
+    left: 0;
+  }
+
+  .logos-background .bottom-right {
+    right: 0;
+    bottom: -6rem;
+  }
+}
+
+/* Styles for large screens (desktop) */
+@media screen and (min-width: 760px) and (max-width: 1280px) {
+  .logos-background .top-left {
+    width: 50%;
+    top: -5rem;
+    left: -4rem;
+  }
+
+  .logos-background .top-right {
+    width: 50%;
+    top: -5rem;
+    right: -5rem;
+  }
+
+  .logos-background .bottom-left {
+    width: 50%;
+    bottom: -5rem;
+    left: -15rem;
+  }
+
+  .logos-background .bottom-right {
+    width: 50%;
+    right: -6rem;
+    bottom: -9rem;
+  }
+}
+
+/* Styles for tablet screens */
+@media screen and (min-width: 480px) and (max-width: 760px) {
+  .logos-background .top-left {
+    width: 30%;
+    top: -6rem;
+    left: -3rem;
+  }
+
+  .logos-background .top-right {
+    width: 30%;
+    top: -8rem;
+    right: 4rem;
+  }
+
+  .logos-background .bottom-left {
+    width: 30%;
+    bottom: -8rem;
+    left: -28rem;
+  }
+
+  .logos-background .bottom-right {
+    width: 30%;
+    right: 6rem;
+    bottom: -10rem;
+  }
+}
+
+/* Styles for mobile screens */
+@media screen and (max-width: 480px) {
+  .logos-background .top-left {
+    width: 30%;
+    top: -6rem;
+    left: -6rem;
+  }
+
+  .logos-background .top-right {
+    width: 30%;
+    top: -15rem;
+    right: 6rem;
+  }
+
+  .logos-background .bottom-left {
+    width: 30%;
+    bottom: -8rem;
+    left: -35rem;
+  }
+
+  .logos-background .bottom-right {
+    width: 30%;
+    right: 8rem;
+    bottom: -10rem;
+  }
+}

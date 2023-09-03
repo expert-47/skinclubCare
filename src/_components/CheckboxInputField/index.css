@@ -1,0 +1,26 @@
+/* Input Field styles */
+.checkbox-input-field {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+
+.checkbox-input-field label {
+  font-family: "PT Serif";
+  font-size: 0.75rem;
+  line-height: 1.3125rem; /* 175% */
+}
+
+.checkbox-input-field input {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid #4c4d4f;
+}
+
+.checkbox-input-field span {
+  color: #e11d48;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-top: 0.45rem;
+}
